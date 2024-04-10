@@ -23,13 +23,13 @@ DEVELOPED BY: M.JAYACHANNDRAN
 REGISTER NO: 212222240038
 ```
 ### Load the necessary packages
-```
+py```
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
-```
+py```
 ### Read the Image and convert to grayscale
-```
+py```
 image = cv2.imread("smu.jpeg",1)
 image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 image_gray = cv2.imread("smu.jpeg",0)
